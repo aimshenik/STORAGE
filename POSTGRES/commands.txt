@@ -1,1 +1,34 @@
 #Hello World!
+
+#outside
+
+#login
+C:\>psql -U postgres -d dbname
+#list of databases
+C:\>psql -l  
+#run command via '-c' key
+C:\>psql -U postgres -d dbname -c "CREATE TABLE test(some_id serial PRIMARY KEY, some_text text);"
+
+#inside
+
+#list of all parameters
+psql > show all;
+
+psql > 
+		\c dbname - подсоединение к БД dbname.
+		\l - список баз данных.
+		\dt - список всех таблиц.
+		\d table - структура таблицы table.
+		\du - список всех пользователей и их привилегий.
+		\dt+ - список всех таблиц с описанием.
+		\dt *s* - список всех таблиц, содержащих s в имени.
+		\i FILE - выполнить команды из файла FILE.
+		\o FILE - сохранить результат запроса в файл FILE.
+		\a - переключение между режимами вывода: с/без выравнивания.
+psql > 
+psql > 
+psql > 
+psql > 
+psql > 
+psql > 
+psql >

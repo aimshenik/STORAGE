@@ -195,3 +195,11 @@ ERRORS:
 git clone >>> SSL certificate problem: self signed certificate in certificate chain 
 RESOLUTION : $ git config --global http.sslVerify false
 
+===========================
+ДОПОЛНИТЕЛЬНО
+
+$ git ls-files -s (просмотр файлов в индексе)
+
+$ git ls-files --stage
+100644 63c918c667fa005ff12ad89437f2fdc80926e21c 0   .gitignore
+100644 5529b198e8d14decbe4ad99db3f7fb632de0439d 0   .mailmap
