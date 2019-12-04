@@ -203,3 +203,6 @@ $ git ls-files -s (просмотр файлов в индексе)
 $ git ls-files --stage
 100644 63c918c667fa005ff12ad89437f2fdc80926e21c 0   .gitignore
 100644 5529b198e8d14decbe4ad99db3f7fb632de0439d 0   .mailmap
+
+create patch from concrete commit
+$ git format-patch -1 98ce896114cf75abc2991ca79f13cfb319a18919 -o patches
